@@ -17,6 +17,8 @@ services:
     image: wordpress:php7.4-fpm-alpine
     volumes:
       - ./src:/var/www/html
+      - ./docker/wordpress/www.conf:/usr/local/etc/php-fpm.d/www.conf
+      - ./docker/wordpress/ini/memory.ini:/usr/local/etc/php/conf.d/memory.ini
     networks:
       - backend
     environment:
