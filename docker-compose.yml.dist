@@ -42,5 +42,7 @@ services:
 networks:
   backend:
     driver: bridge
+    name: wordpress_backend
   frontend:
     driver: bridge
+    name: wordpress_frontend
