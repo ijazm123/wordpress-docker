@@ -1,2 +1,9 @@
 .git
 .idea
+
+### Config files ###
+docker/nginx/site.conf
+docker/wordpress/www.conf
+docker/wordpress/ini/memory.ini
+
+docker-compose.yml
