@@ -15,3 +15,7 @@ docker/nginx/log
 ### Source ###
 !src/.gitkeep
 src
+
+### MySQL ###
+!docker/mysql/data/.gitkeep
+docker/mysql/data
