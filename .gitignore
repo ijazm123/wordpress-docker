@@ -13,7 +13,7 @@ docker-compose.yml
 docker/nginx/log
 
 ### Source ###
-!src/.gitkeep
+!src/.gitignore
 src
 
 ### MySQL ###
