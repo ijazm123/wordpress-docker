@@ -17,5 +17,5 @@ docker/nginx/log
 src
 
 ### MySQL ###
-!docker/mysql/data/.gitkeep
+!docker/mysql/data/.gitignore
 docker/mysql/data
