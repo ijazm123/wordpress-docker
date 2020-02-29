@@ -9,5 +9,5 @@ docker/wordpress/ini/memory.ini
 docker-compose.yml
 
 ### Log ###
-docker/nginx/log
 !docker/nginx/log/.gitkeep
+docker/nginx/log
