@@ -11,3 +11,7 @@ docker-compose.yml
 ### Log ###
 !docker/nginx/log/.gitkeep
 docker/nginx/log
+
+### Source ###
+!src/.gitkeep
+src
